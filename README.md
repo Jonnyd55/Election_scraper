@@ -6,9 +6,12 @@ This script will only work on precinct-level pages, like this one (Attorney Gene
 The script will return three lists (javascript arrays)
 
 Lists:
-	1. raceResults = [candidate1 name, cand1 votes, cand1 vote%, cand2 name, cand2 votes, cand2 vote%]
-	2. cityResults = [candidate1 name, cand1 votes, cand1 vote%, cand2 name, cand2 votes, cand2 vote%, PRECINCTS REPORTING]
-	3. precinctResults = [{precinct1: [candidate1 name, cand1 votes, cand1 vote%, cand2 name, cand2 votes, cand2 vote%], precinct2 = [candidate1 name, cand1 votes, cand1 vote%, cand2 name, cand2 votes, cand2 vote%] ..etc.}]
+
+1. raceResults = [candidate1 name, cand1 votes, cand1 vote%, cand2 name, cand2 votes, cand2 vote%]
+	
+2. cityResults = [candidate1 name, cand1 votes, cand1 vote%, cand2 name, cand2 votes, cand2 vote%, PRECINCTS REPORTING]
+
+3. precinctResults = [{precinct1: [candidate1 name, cand1 votes, cand1 vote%, cand2 name, cand2 votes, cand2 vote%], precinct2 = [candidate1 name, cand1 votes, cand1 vote%, cand2 name, cand2 votes, cand2 vote%] ..etc.}]
 
 This was built in Python 3.3 using beautiful soup 4.
 	
